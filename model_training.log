@@ -1,0 +1,33 @@
+2024-11-23 19:30:45,829 - INFO - Starting model training pipeline...
+2024-11-23 19:30:46,690 - INFO - Loaded dataset with 651201 samples
+2024-11-23 19:30:46,690 - INFO - Extracting features from URLs...
+2024-11-23 19:30:48,351 - ERROR - Error extracting features: expected string or bytes-like object
+2024-11-23 19:30:48,352 - ERROR - Training pipeline failed: expected string or bytes-like object
+2024-11-23 19:31:10,398 - INFO - Starting model training pipeline...
+2024-11-23 19:31:11,223 - INFO - Loaded dataset with 651201 samples
+2024-11-23 19:31:11,224 - INFO - Extracting features from URLs...
+2024-11-23 19:31:12,913 - ERROR - Error extracting features: expected string or bytes-like object
+2024-11-23 19:31:12,913 - ERROR - Training pipeline failed: expected string or bytes-like object
+2024-11-23 19:37:03,989 - INFO - Starting model training pipeline...
+2024-11-23 19:37:04,865 - INFO - Loaded dataset with 651190 samples
+2024-11-23 19:37:04,865 - INFO - Extracting features from URLs...
+2024-11-23 19:37:28,447 - INFO - Feature extraction completed
+2024-11-23 19:37:28,833 - INFO - Data split: 520952 training samples, 130238 test samples
+2024-11-23 19:37:28,834 - INFO - Training Random Forest model...
+2024-11-23 19:37:45,000 - INFO - Evaluating model performance...
+2024-11-23 19:37:46,012 - INFO - Model Accuracy: 0.9663
+2024-11-23 19:37:46,012 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.99      0.98     85621
+           1       0.98      0.99      0.99     19291
+           2       0.99      0.94      0.96      6504
+           3       0.91      0.86      0.89     18822
+
+    accuracy                           0.97    130238
+   macro avg       0.96      0.94      0.95    130238
+weighted avg       0.97      0.97      0.97    130238
+
+2024-11-23 19:37:46,624 - INFO - Model saved successfully as 'url_classifier.pkl'
+2024-11-23 19:37:46,625 - INFO - Training completed in 42.63 seconds
